@@ -18,9 +18,16 @@
 		476BFFA41711FA8300C704B1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476BFFA31711FA8300C704B1 /* Default@2x.png */; };
 		476BFFA61711FA8300C704B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476BFFA51711FA8300C704B1 /* Default-568h@2x.png */; };
 		476BFFA91711FA8300C704B1 /* GymSchedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 476BFFA71711FA8300C704B1 /* GymSchedule.xcdatamodeld */; };
+		476BFFB31711FB6B00C704B1 /* app-icon-57.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 476BFFAF1711FB6B00C704B1 /* app-icon-57.jpg */; };
+		476BFFB41711FB6B00C704B1 /* app-icon-72.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 476BFFB01711FB6B00C704B1 /* app-icon-72.jpg */; };
+		476BFFB51711FB6B00C704B1 /* app-icon-114.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 476BFFB11711FB6B00C704B1 /* app-icon-114.jpg */; };
+		476BFFB61711FB6B00C704B1 /* app-icon-144.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 476BFFB21711FB6B00C704B1 /* app-icon-144.jpg */; };
+		476BFFB91711FD0E00C704B1 /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476BFFB81711FD0E00C704B1 /* GSViewController.m */; };
+		AAAB8C3A18664FF0B76DC637 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9052C10206604725954E0ACD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CBEF33D487E479AABCA2107 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		476BFF8A1711FA8300C704B1 /* GymSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476BFF8D1711FA8300C704B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		476BFF8F1711FA8300C704B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +43,13 @@
 		476BFFA31711FA8300C704B1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		476BFFA51711FA8300C704B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		476BFFA81711FA8300C704B1 /* GymSchedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymSchedule.xcdatamodel; sourceTree = "<group>"; };
+		476BFFAF1711FB6B00C704B1 /* app-icon-57.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app-icon-57.jpg"; sourceTree = "<group>"; };
+		476BFFB01711FB6B00C704B1 /* app-icon-72.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app-icon-72.jpg"; sourceTree = "<group>"; };
+		476BFFB11711FB6B00C704B1 /* app-icon-114.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app-icon-114.jpg"; sourceTree = "<group>"; };
+		476BFFB21711FB6B00C704B1 /* app-icon-144.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app-icon-144.jpg"; sourceTree = "<group>"; };
+		476BFFB71711FD0E00C704B1 /* GSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSViewController.h; path = controllers/GSViewController.h; sourceTree = "<group>"; };
+		476BFFB81711FD0E00C704B1 /* GSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSViewController.m; path = controllers/GSViewController.m; sourceTree = "<group>"; };
+		9052C10206604725954E0ACD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 				476BFF901711FA8300C704B1 /* Foundation.framework in Frameworks */,
 				476BFF921711FA8300C704B1 /* CoreGraphics.framework in Frameworks */,
 				476BFF941711FA8300C704B1 /* CoreData.framework in Frameworks */,
+				AAAB8C3A18664FF0B76DC637 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 				476BFF951711FA8300C704B1 /* GymSchedule */,
 				476BFF8C1711FA8300C704B1 /* Frameworks */,
 				476BFF8B1711FA8300C704B1 /* Products */,
+				0CBEF33D487E479AABCA2107 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +93,7 @@
 				476BFF8F1711FA8300C704B1 /* Foundation.framework */,
 				476BFF911711FA8300C704B1 /* CoreGraphics.framework */,
 				476BFF931711FA8300C704B1 /* CoreData.framework */,
+				9052C10206604725954E0ACD /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +103,7 @@
 			children = (
 				476BFF9E1711FA8300C704B1 /* GSAppDelegate.h */,
 				476BFF9F1711FA8300C704B1 /* GSAppDelegate.m */,
+				476BFFBA1711FD1100C704B1 /* controllers */,
 				476BFFA71711FA8300C704B1 /* GymSchedule.xcdatamodeld */,
 				476BFF961711FA8300C704B1 /* Supporting Files */,
 			);
@@ -96,6 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				476BFF971711FA8300C704B1 /* GymSchedule-Info.plist */,
+				476BFFAF1711FB6B00C704B1 /* app-icon-57.jpg */,
+				476BFFB01711FB6B00C704B1 /* app-icon-72.jpg */,
+				476BFFB11711FB6B00C704B1 /* app-icon-114.jpg */,
+				476BFFB21711FB6B00C704B1 /* app-icon-144.jpg */,
 				476BFF981711FA8300C704B1 /* InfoPlist.strings */,
 				476BFF9B1711FA8300C704B1 /* main.m */,
 				476BFF9D1711FA8300C704B1 /* GymSchedule-Prefix.pch */,
@@ -104,6 +126,15 @@
 				476BFFA51711FA8300C704B1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		476BFFBA1711FD1100C704B1 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				476BFFB71711FD0E00C704B1 /* GSViewController.h */,
+				476BFFB81711FD0E00C704B1 /* GSViewController.m */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +147,7 @@
 				476BFF861711FA8300C704B1 /* Sources */,
 				476BFF871711FA8300C704B1 /* Frameworks */,
 				476BFF881711FA8300C704B1 /* Resources */,
+				030EC1D988D5499E9281C108 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,10 +194,31 @@
 				476BFFA21711FA8300C704B1 /* Default.png in Resources */,
 				476BFFA41711FA8300C704B1 /* Default@2x.png in Resources */,
 				476BFFA61711FA8300C704B1 /* Default-568h@2x.png in Resources */,
+				476BFFB31711FB6B00C704B1 /* app-icon-57.jpg in Resources */,
+				476BFFB41711FB6B00C704B1 /* app-icon-72.jpg in Resources */,
+				476BFFB51711FB6B00C704B1 /* app-icon-114.jpg in Resources */,
+				476BFFB61711FB6B00C704B1 /* app-icon-144.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030EC1D988D5499E9281C108 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		476BFF861711FA8300C704B1 /* Sources */ = {
@@ -175,6 +228,7 @@
 				476BFF9C1711FA8300C704B1 /* main.m in Sources */,
 				476BFFA01711FA8300C704B1 /* GSAppDelegate.m in Sources */,
 				476BFFA91711FA8300C704B1 /* GymSchedule.xcdatamodeld in Sources */,
+				476BFFB91711FD0E00C704B1 /* GSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +306,7 @@
 		};
 		476BFFAD1711FA8300C704B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBEF33D487E479AABCA2107 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GymSchedule/GymSchedule-Prefix.pch";
@@ -263,6 +318,7 @@
 		};
 		476BFFAE1711FA8300C704B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBEF33D487E479AABCA2107 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GymSchedule/GymSchedule-Prefix.pch";
@@ -291,6 +347,7 @@
 				476BFFAE1711FA8300C704B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
